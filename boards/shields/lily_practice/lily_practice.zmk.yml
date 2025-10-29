@@ -1,0 +1,13 @@
+file_format: "1"
+id: lily_practice
+name: lily_practice
+type: shield
+url:
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+    - keys
+    - display
+siblings:
+    - lily_practice_left
+    - lily_practice_right

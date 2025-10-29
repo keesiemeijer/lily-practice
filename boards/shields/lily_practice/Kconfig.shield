@@ -1,0 +1,10 @@
+# Copyright (c) 2022 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+# No whitespace after the comma or in your part name!
+config SHIELD_LILY_PRACTICE_LEFT
+    def_bool $(shields_list_contains,lily_practice_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_LILY_PRACTICE__RIGHT
+    def_bool $(shields_list_contains,lily_practice_right)
