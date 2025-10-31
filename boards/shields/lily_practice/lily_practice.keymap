@@ -10,11 +10,14 @@
             // |     A     |     B     |     C     |    H     |     I     |     J     |
             // |     D     |     E     |     F     |    K     |     L     |     M     |
             // |           |           |     G     |    N     |           |           |
+
             bindings = <
                 &kp A    &kp B    &kp C    &kp H    &kp I    &kp J
                 &kp D    &kp E    &kp F    &kp K    &kp L    &kp M
                                   &kp G    &kp N
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
  };
