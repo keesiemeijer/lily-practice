@@ -59,7 +59,7 @@
     left_encoder: left_encoder {
         compatible = "alps,ec11";
         steps = <80>;
-        status = "enabled";
+        status = "okay";
     
         a-gpios = <&pro_micro 9 GPIO_PULL_UP>;
         b-gpios = <&pro_micro 8 GPIO_PULL_UP>;
