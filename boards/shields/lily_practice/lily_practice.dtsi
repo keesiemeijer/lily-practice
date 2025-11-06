@@ -61,8 +61,8 @@
         steps = <80>;
         status = "okay";
     
-        a-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
-        b-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
+        a-gpios = <&pro_micro 9 GPIO_PULL_UP>;
+        b-gpios = <&pro_micro 8 GPIO_PULL_UP>;
     };
     
     right_encoder: right_encoder {
@@ -70,8 +70,8 @@
         steps = <80>;
         status = "disabled";
     
-        a-gpios = <&pro_micro 9 GPIO_ACTIVE_HIGH>;
-        b-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
+        a-gpios = <&pro_micro 9 GPIO_PULL_UP>;
+        b-gpios = <&pro_micro 8 GPIO_PULL_UP>;
     };
     
     sensors: sensors {
