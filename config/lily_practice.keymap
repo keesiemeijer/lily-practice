@@ -23,7 +23,7 @@
         hardware_layer {
             bindings = <
                 &kp Q    &kp R         &kp S         &kp V     &kp W         &kp X
-                &kp D   &bt BT_CLR    &mo 1    &mo 1    &bt BT_CLR    &kp M
+                &bt BT_SEL 0   &bt BT_CLR    &mo 1    &mo 1    &bt BT_CLR    &bt BT_SEL 0
                                        &kp U         &kp Z
             >;
         };
