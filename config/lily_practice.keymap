@@ -13,11 +13,18 @@
 
             bindings = <
                 &kp A    &kp B    &kp C    &kp H    &kp I    &kp J
-                &kp D    &kp E    &kp F    &kp K    &kp L    &kp M
+                &kp D    &kp E    &mo 1    &mo 1    &kp L    &kp M
                                   &kp G    &kp N
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+        hardware_layer {
+            bindings = <
+                &kp Q    &kp R         &kp S         &kp V     &kp W         &kp X
+                &kp T    &bt BT_CLR    &trans        &trans    &bt BT_CLR    &kp Y
+                                       &kp U         &kp Z
+            >;
         };
     };
  };
