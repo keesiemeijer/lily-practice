@@ -230,7 +230,7 @@
                                &kp RALT           &kp LGUI                    &mo 4   &kp SPACE    &kp ENTER  &mo 4   &kp RGUI                      &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (1). Disable home row mods for testing
@@ -252,7 +252,7 @@
                         &trans  &trans  &trans    &trans    &trans    &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (2). Special characters layer
@@ -274,7 +274,7 @@
                                &trans      &trans     &trans         &trans    &trans  &trans         &trans     &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (3). Mouse and scroll movements
@@ -296,7 +296,7 @@
                                 &trans            &trans      &mo 4         &trans    &trans  &mo 4           &trans          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
     // Layer (4). Action layer
@@ -317,7 +317,7 @@
                                                                     &trans                   &trans                 &trans         &trans          &trans  &trans            &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (5). Connect and Disconnect bluetooth profiles
@@ -339,7 +339,7 @@
                                           &trans         &trans         &trans        &trans    &trans  &trans            &trans             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         // Layer (6). Blender
         // To get out of this layer press shift and escape together
@@ -360,7 +360,7 @@
                                 &kp LALT   &trans         &kp TAB      &kp LGUI       &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
