@@ -229,6 +229,8 @@
 &kp LSHFT      &kp Z   &kp X   &kp C              &kp V                       &kp B   &alfred      &alfred    &kp N   &kp M                         &kp COMMA           &kp DOT  &kp FSLH  &shift_caps_lock
                                &kp RALT           &kp LGUI                    &mo 4   &kp SPACE    &kp ENTER  &mo 4   &kp RGUI                      &kp RCTRL
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (1). Disable home row mods for testing
@@ -249,6 +251,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans    &trans    &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (2). Special characters layer
@@ -269,6 +273,8 @@
 &trans  &kp TILDE  &kp BSLH    &kp LBKT    &kp RBKT   &kp PIPE       &trans    &trans  &kp KP_EQUAL   &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_SLASH     &kp KP_DOT
                                &trans      &trans     &trans         &trans    &trans  &trans         &trans     &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (3). Mouse and scroll movements
@@ -289,6 +295,8 @@
 &to 0   &trans      &trans      &trans            &trans      &trans        &trans    &trans  &msc SCRL_UP    &msc SCRL_RIGHT &msc SCRL_LEFT   &msc SCRL_LEFT   &trans    &to 0
                                 &trans            &trans      &mo 4         &trans    &trans  &mo 4           &trans          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
     // Layer (4). Action layer
@@ -308,6 +316,8 @@
 &to 3          &kp LS(LC(LA(LG(LEFT))))  &kp LS(LC(LA(LG(RIGHT))))  &kp LS(LC(LA(LG(SQT))))  &windowsize            &kp LG(N0)     &kp LG(GRAVE)   &trans  &kp LA(LG(LEFT))  &kp LA(LG(RIGHT))  &kp RC(RS(PG_UP))  &kp RC(RS(PG_DN))  &trans             &to 3
                                                                     &trans                   &trans                 &trans         &trans          &trans  &trans            &trans             &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         // Layer (5). Connect and Disconnect bluetooth profiles
@@ -328,6 +338,8 @@
 &trans      &trans         &trans         &trans         &trans         &kp HASH      &to 6     &trans  &trans            &trans             &trans             &trans  &trans  &trans
                                           &trans         &trans         &trans        &trans    &trans  &trans            &trans             &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
         // Layer (6). Blender
         // To get out of this layer press shift and escape together
@@ -347,6 +359,8 @@
 &kp LSHFT  &kp Z     &kp KP_N7  &kp KP_N8  &kp KP_N9      &kp KP_SLASH &kp LS(S)      &trans  &trans  &trans  &trans  &trans  &trans  &trans
                                 &kp LALT   &trans         &kp TAB      &kp LGUI       &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
