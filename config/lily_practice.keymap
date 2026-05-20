@@ -16,9 +16,9 @@
             // |           |            |    mute   |    N     |           |           |
 
             bindings = <
-                 &kp A     &kp C_PP      &kp C_NEXT               &kp H    &kp I    &kp J
-                 &trans    &trans        &mo 1                    &kp K    &kp L    &kp M
-                                         &kp C_MUTE               &kp N
+                 &kp C_PREV  &kp C_PP  &kp C_NEXT               &kp H    &kp I    &kp J
+                 &trans      &trans    &mo 1                    &kp K    &kp L    &kp M
+                                       &kp C_MUTE               &kp N
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
