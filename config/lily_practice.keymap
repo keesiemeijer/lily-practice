@@ -4,20 +4,6 @@
 
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        // Clear bluetooth
-        combo_bluetooth_clear {
-            bindings = <&bt BT_CLR>;
-            key-positions = <0 1 6>;
-        };
-        // arrow up
-        combo_arrow_up {
-            bindings = <&kp UP>;
-            key-positions = <1 7>;
-        };
-    };
 
 
     keymap {
@@ -31,8 +17,8 @@
 
             bindings = <
                  &kp A     &kp C_PP      &kp C_NEXT               &kp H    &kp I    &kp J
-                &bt BT_SEL 0   &bt BT_SEL 2  &mo 1                    &kp K    &kp L    &kp M
-                                             &kp C_MUTE               &kp N
+                 &trans    &trans        &mo 1                    &kp K    &kp L    &kp M
+                                         &kp C_MUTE               &kp N
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -45,9 +31,9 @@
             // |           |            |    mute   |    N     |           |           |
 
             bindings = <
-                &kp O  &kp UP  &trans    &trans  &trans  &trans 
-                &trans  &trans  &trans    &trans  &trans  &trans
-                                &trans    &trans
+                &bt BT_SEL 0  &bt BT_SEL 2  &trans    &trans  &trans  &trans 
+                &trans        &trans        &trans    &trans  &trans  &trans
+                                            &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
