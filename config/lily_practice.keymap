@@ -30,7 +30,7 @@
             // |           |            |    mute   |    N     |           |           |
 
             bindings = <
-                &kp C_PREV     &kp C_PP      &kp C_NEXT               &kp H    &kp I    &kp J
+                 &kp A     &kp C_PP      &kp C_NEXT               &kp H    &kp I    &kp J
                 &bt BT_SEL 0   &bt BT_SEL 2  &mo 1                    &kp K    &kp L    &kp M
                                              &kp C_MUTE               &kp N
             >;
