@@ -17,7 +17,7 @@
             // |           |            |    mute   |    N     |           |           |
 
             bindings = <
-                 &kp A    &kp B   &kp C               &kp H    &kp I    &kp J
+                 &rgb_ug RGB_TOG    &kp B   &kp C               &kp H    &kp I    &kp J
                  &trans      &trans    &mo 1                    &kp K    &kp L    &kp M
                                        &kp C_MUTE               &kp N
             >;
