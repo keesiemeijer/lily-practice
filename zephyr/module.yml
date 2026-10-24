@@ -1,4 +1,5 @@
 name: zmk-keyboard-lily_practice
 build:
+    cmake: .
     settings:
         board_root: .
