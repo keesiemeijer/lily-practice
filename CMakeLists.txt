@@ -1,2 +1,3 @@
 zephyr_library()
 zephyr_library_sources_ifdef(CONFIG_ZMK_RGB_UNDERGLOW src/rgb_battery_indicator.c)
+zephyr_include_directories(${APPLICATION_SOURCE_DIR}/include)
